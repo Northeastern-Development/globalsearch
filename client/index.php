@@ -10,7 +10,11 @@
   </body>
 
 
-  <script>var ULGA_search_specificsite = 'alumni.northeastern.edu'; var ULGA_search_title ='Alumni Relations';</script>
-  <!-- <script src="http://globalsearch.edu/server/js/globalsearch-min.js"></script> -->
+  <script>
+    // if you wish to search a specific site, please edit the following variables
+    // to perform a search of all Northeastern, please delete the following variables
+    var NUGS_specificsite = 'alumni.northeastern.edu';  // specifc site to search
+    var NUGS_title ='Alumni Relations'; // title override to be used in the saerch field label
+  </script>
   <script src="https://search.northeastern.edu/nuglobalutils/requests/js/globalsearch.js"></script>
 </html>
