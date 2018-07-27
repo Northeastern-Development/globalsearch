@@ -9,7 +9,7 @@ NU Global Search (NUGS)
 
 
 function NUGlobalSearch(){
-
+ 
 	this.base = 'https://search.northeastern.edu/nuglobalutils/common';
 	// this.base = 'http://sandbox.local/globalsearch/server';
 
