@@ -1,0 +1,46 @@
+body {
+  font-family: 'Lato',sans-serif,'Material Icons';
+}
+
+article {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+div.main {
+   flex-grow: 1;
+   margin-top:44px;
+   // width:97vw !important;
+   // margin: 44px auto 0 auto;
+}
+
+body div.main > section > div.nu__searchbar-container > form#nu__searchbar-form > div, .cse .gsc-control-wrapper-cse, .gsc-control-wrapper-cse {
+  width:657px !important;
+  margin: 0 auto !important;
+}
+
+div#___gcse_0 {
+  margin: 30px 10vw 0 10vw;
+}
+
+#nu__globalheader, #neu__global-search, #nu__global-footer {
+   flex-shrink: 0;
+}
+
+@media only screen and (max-width: 959px) {
+
+  body div.main > section > div.nu__searchbar-container > form#nu__searchbar-form > div, .cse .gsc-control-wrapper-cse, .gsc-control-wrapper-cse {
+    width:94vw !important;
+
+  }
+
+  div#___gcse_0 {
+    margin: inherit;
+  }
+
+  // div.main > section > div#___gcse_0 div.gsc-above-wrapper-area {
+  //   padding: 0 30px
+  // }
+}
